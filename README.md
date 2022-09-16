@@ -4,8 +4,9 @@ Hola soy flavio, soy un estudiante de Silabuz que junto al MTPE (Ministerio de T
 
 Puedes realizar la trivia en:
 
-- [Replit] (https://replit.com/@alvaradotuctod/Mi-trivia)
+- [Replit](https://replit.com/@alvaradotuctod/Mi-trivia)
 
 --- 
 ⭐ Desarrollado con Python
-- [Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+- 💻 &nbsp;
+  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
