@@ -1,6 +1,6 @@
 # Hola 👋🏾 👩🏾‍💻
 
-Hola soy flavio, soy un estudiante de Silabuz que junto al MTPE (Ministerio de Trabajo del Perú) en el curso de selección eh realizado una trivia con todo lo enseñado por mis profesores y espero que les guste.
+Hola soy Flavio Alvarado Tucto, soy un estudiante de Silabuz que junto al MTPE (Ministerio de Trabajo del Perú) en el curso de selección eh realizado una trivia con todo lo enseñado por mis profesores y espero que les guste.
 
 Puedes realizar la trivia en:
 
@@ -8,5 +8,5 @@ Puedes realizar la trivia en:
 
 --- 
 ⭐ Desarrollado con Python
-- 💻 &nbsp;
-  ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
+
+- ![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python)
