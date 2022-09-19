@@ -1,8 +1,27 @@
+import time
+import random
 name = input("Antes de empezar, ¿Podria decirme su nombre porfavor?\n")
 
 print(
-    "¡Bienvenido {}, a mi proyecto de trivia del curso de backend del MTPE junto a Silabuz espero que te guste!\n"
+    "\n¡Bienvenido {}, a mi proyecto de trivia del curso de backend del MTPE junto a Silabuz espero que te guste!\n"
     .format(name))
+
+contador = 6
+
+print("Cargando la trivia...\n")
+
+while contador > 0:
+    if contador < 1:
+        contador -= 1
+        print(str(contador))
+        time.sleep(1)
+    else:
+        contador -= 1
+        print(str(contador) + "\n")
+        time.sleep(1)
+
+print("¡Comienza la trivia!\n")
+          
 RED = '\033[31m'
 GREEN = '\033[32m'
 YELLOW = '\033[33m'
@@ -580,6 +599,22 @@ else:
             puntaje += 4
         else:
             print(incorrecto)
+
+numero_uno = random.randint(2, 10)
+numero_dos = random.randint(2, 10)
+multiplicacion = numero_uno * numero_dos
+print(
+        "\nAhora jugaremos un juego divertido que te hara ganar puntos extras a tu puntaje ^^."
+    )
+resultadoMul = input(
+        "\nLo unico que tienes que hacer es responder cual es la multiplacion de {} x {}:\n"
+        .format(numero_uno, numero_dos))
+
+if resultadoMul == str(multiplicacion):
+        puntaje += 2
+
+print("\nCargando resultado...\n")
+time.sleep(5)
 
 if category == "A":
     print("Puntaje: {}".format(puntaje))
